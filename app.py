@@ -3,7 +3,9 @@ from typing import TypedDict, List
 from langgraph.graph import StateGraph
 from langchain_groq import ChatGroq
 import os
-os.environ["GROQ_API_KEY"]="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"
+
+os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+
 
 
 # ---------------------
