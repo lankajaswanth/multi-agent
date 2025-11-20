@@ -1,4 +1,3 @@
-python
 streamlit
 langchain-groq
 langgraph
